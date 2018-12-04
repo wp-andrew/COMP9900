@@ -14,9 +14,6 @@ WAM84.9
 > Python 3.6
 > Django 2.1
 
-### Setup
-1. git clone https://github.com/wp-andrew/COMP9900.git
-
 ### FOR MAC USERS (using virtual environment)
 1. virtualenv venv
 2. source venv/bin/activate
