@@ -1,24 +1,16 @@
-### Project name:
-Accommodation Web Portal 
+# ZETA
 
-### Team name:
-WAM84.9
+**ZETA** is a web application that will allow providers to present their property, and visitors to review the offers and reserve or rent a property. Visitors can also create a request if they cannot find a suitable property.
 
-### Team member:
-1. Andrew Wirjaputra (Backend + Frontend integration)
-2. Shengtao Xu (Frontend)
-3. Shiqing Zhang (Frontend)
-4. Zhi He (Frontend)
+### Django Applications
+This project focuses on the creation of a generic, modular architecture for building web portals that can be used for accommodation or other similar services, which will be based on five core components:
+- _users/_ : **Custom User Module** - allows users to login using email instead of username.
+- _advertising/_ : **Accommodation Advertising Module** - for providers of accommodations to advertise properties and manage their advertisements
+- _request/_ : **Visitor Request Module** - for visitors to put their requests and get a simple and useful feedback of the available accommodations, and to select and book preferred accommodation
+- _search/_ : **Accommodation Search Module** - for users to find properties and filters out inappropriate ones
+- _review/_ : **Accommodation Review Module** - for visitors to publish a review of the properties they have stayed in
 
-### Build:
-> Python 3.6
-> Django 2.1
-
-### FOR MAC USERS (using virtual environment)
-1. virtualenv venv
-2. source venv/bin/activate
-
-### INITIAL SETUP (only once):
+### Initial Setup
 1. create a database in postgresql (name it whatever)
 2. update DATABASES parameter in zeta/settings.py accordingly (NAME, PASSWORD, etc)
 3. pip install django
@@ -31,6 +23,12 @@ WAM84.9
 10. python manage.py loaddata calendars.json
 11. python manage.py loaddata reviews.json
 
-### HOW TO RUN:
+### How to Run
 1. python manage.py runserver
-2. Open http://localhost:8000/home
+2. Navigate to http://localhost:8000/home
+
+### The Team
+1. Andrew Wirjaputra (Backend + Frontend integration)
+2. Shengtao Xu (Frontend)
+3. Shiqing Zhang (Frontend)
+4. Zhi He (Frontend)
